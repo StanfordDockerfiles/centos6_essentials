@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos:centos7
 LABEL maintainer "Nathaniel Watson nathankw@stanford.edu"
 #Extends the centos6 library image with tools necessary for building software. 
 #PURPOSE: Installs many core packages on top of the centos:centos6 base image, to allow users to be able to install further software or packages for their specific purposes. Note that since this installs teh Development Tools yum package, it automatically comes with Perl v5.10.1. However, this intallation of Perl doesn't come with cpan, cpanm, or cpanp. I was unable to install
